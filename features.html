@@ -2,23 +2,20 @@
 
 <html>
   
-  <head>
-  <style>.help{
-  display: block;
-  }</style>
-    <title>Jumbotron</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <style type="text/css">
-      body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-      }
-    </style>
-  </head>
+<head>
+    <meta charset="utf-8">
+    <title>ListMaster</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
   
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -27,31 +24,23 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">ListMaster</a>
+          <a class="navbar-brand" href="index.html">ListMaster</a>
         </div> <!-- end navbar header -->
         <div class="navbar-collapse collapse help">
           <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
             <li class="active">
-              <a href="#">Home</a>
+              <a href="features.html">Features</a>
             </li>
             <li>
-              <a href="#features">Features</a>
+              <a href="over_ons.html">Over ons</a>
             </li>
-            <li>
-              <a href="#over_ons">Over ons</a>
-            </li>
-            <li>
-              <a href="#log_in">Log in</a>
-            </li>
+      
           </ul>
           <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="E-mail" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Wachtwoord" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Log in</button>
+            <a href="log_in.html"><button type="submit" class="btn btn-success">Log in</button></a>
           </form>
         </div>
         <!--/.navbar-collapse -->
@@ -59,25 +48,17 @@
     </div>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="clearfix"></div>
-
+    <div class="pusher"></div>
     <div class="container help">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-lg-4">
-          <p></p>
-          <p></p>
-          <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(51, 51, 51);">App</h3>
-          <h3 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb(51, 51, 51);"><span style="font-size: 14px; line-height: 20px;">ListMaster is een app voor de mobiele telefoon. Met behulp van deze app vergeet je nooit meer iets als je naar de supermarkt gaat, en heb je dus altijd alles in huis! Je kunt gemakkelijk je eigen boodschappenlijst samenstellen en deze op ieder moment van de dag aanvullen. Ook houdt de app je voorraad in huis bij. Verder mis je nooit meer de aanbiedingen bij jouw supermarkt en vind je snel de goedkoopste winkels bij jou in de buurt.&nbsp;</span><br></h3>
-          <h3><div style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 13px; line-height: normal;"><br></div></h3>
+        <div class="col-md-8">       
+          <h3>App</h3>
+          <p>ListMaster is een app voor de mobiele telefoon. Met behulp van deze app vergeet je nooit meer iets als je naar de supermarkt gaat, en heb je dus altijd alles in huis! Je kunt gemakkelijk je eigen boodschappenlijst samenstellen en deze op ieder moment van de dag aanvullen. Ook houdt de app je voorraad in huis bij. Verder mis je nooit meer de aanbiedingen bij jouw supermarkt en vind je snel de goedkoopste winkels bij jou in de buurt.&nbsp;</p><br>
+
           <h3>Website</h3>
           <h3><span style="font-size: 14px; line-height: 20px;"><b>Klant<br></b>Via deze site kun je ook gemakkelijk via je internetbrowser je voorraad zien en je boodschappenlijstje aanpassen. De site en app synchroniseren met elkaar zodat beiden altijd up-to-date zijn. Verder heeft de site nog een hoop andere functies, die je het beste zelf kunt ontdekken!</span></h3>
           <h3><span style="font-size: 14px; line-height: 20px;"><b>Winkelier</b><br>De winkelier kan met behulp van de site o.a. de statistieken bijhouden en nieuwe producten  en aanbiedingen toevoegen. Ook de populariteit van de producten kan met behulp van de site worden bijgehouden (hoe vaak een bepaald product op het lijstje van iemand wordt gezet).</span></h3>
-          <p></p>
-        </div>
-        <div class="col-lg-4">
-          <p></p>
-        </div>
-        <div class="col-lg-4">
           <p></p>
         </div>
       </div>
